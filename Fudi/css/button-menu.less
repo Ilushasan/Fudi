@@ -1,0 +1,35 @@
+/*Button-menu*/
+.button-menu {
+    display: none;
+    padding: 10px 0 0;
+    text-align: right;
+    position: absolute;
+    right: 0;
+
+    &__link {
+        padding: 10px 40px;
+        display: block;
+        text-decoration: none;
+        background-color: rgba(255, 255, 255, 0.4);
+        text-align: center;
+        text-transform: uppercase;
+        &:hover {
+            background-color: #eee;
+            color: #333;
+            border-bottom: 1px solid black;
+        }
+    }
+}
+
+#checkbox-button-menu:checked + .button-menu {
+    display: block;
+}
+
+.checkbox-button-menu {
+    cursor: pointer;
+    font-size: 30px;
+    color: rgba(255, 255, 255, 0.8);
+    &:hover {
+        color: #fff;
+    }
+}

@@ -1,0 +1,73 @@
+/*Meals*/
+.meals {
+    padding: 100px 0 50px;
+
+    &__list {
+        display: flex;
+        flex-wrap: wrap;
+        margin-bottom: 60px;
+    }
+
+    &__item {
+        
+        background-size: 100%;
+        width: 20%;
+        height: 225px;
+        color: #fff;
+        position: relative;
+        &:nth-child(1){
+            background-image: url('../img/food-1.png');
+        }
+        &:nth-child(2){
+            background-image: url('../img/food-2.png');
+        }
+        &:nth-child(3){
+            background-image: url('../img/food-3.png');
+        }
+        &:nth-child(4){
+            background-image: url('../img/food-4.png');
+        }
+        &:nth-child(5){
+            background-image: url('../img/food-5.png');
+        }
+        &:nth-child(6){
+            background-image: url('../img/food-6.png');
+        }
+        &:nth-child(7){
+            background-image: url('../img/food-7.png');
+        }
+        &:nth-child(8){
+            background-image: url('../img/food-8.png');
+        }
+        &:nth-child(9){
+            background-image: url('../img/food-9.png');
+        }
+        &:nth-child(10){
+            background-image: url('../img/food-10.png');
+        }
+    }
+
+    &__content {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        text-shadow: -1px 1px 40px rgba(1, 1, 1, 0.55);
+        text-align: center;
+    }
+
+    &__counter {
+        font-size: 15px;
+        line-height: 30px;
+        font-style: italic;
+        letter-spacing: .7;
+        color: rgba(255, 255, 255, 0.7);;
+    }
+
+    &__title {
+        font-size: 36px;
+        font-weight: 700;
+        text-transform: uppercase;
+    }
+
+}
